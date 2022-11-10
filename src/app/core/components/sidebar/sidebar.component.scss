@@ -1,0 +1,45 @@
+@import "../../../../assets/_scss/variables.scss";
+
+.title-sidebar {
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: $gray;
+}
+
+ul {
+  display: contents;
+  list-style: none;
+  li {
+    transition: background 0.3s ease-in-out;
+    margin: 1rem 0;
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+    .bx {
+      margin-right: 0.5rem;
+    }
+    a {
+      text-decoration: none;
+    }
+    .bx,
+    a {
+      color: $darkBlue;
+      transition: color 0.3s ease-in-out;
+    }
+  }
+}
+
+li:hover {
+  background: $softOrange;
+  .bx,
+  a {
+    color: $orange !important;
+  }
+}
+
+.active {
+  background: $softOrange;
+  .bx,
+  a {
+    color: $orange !important;
+  }
+}

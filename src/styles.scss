@@ -1,1 +1,41 @@
-/* You can add global styles to this file, and also import other style files */
+@import "./assets/_scss/variables.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: $nunito;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+.align-items-center {
+  align-items: center;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.p-sides {
+  padding: 1rem 1.5rem;
+}
+
+.shadow {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.f-bold {
+  font-weight: bold;
+}
+
+.text-orange {
+  color: $orange;
+}
+
+.pointer {
+  cursor: pointer;
+}
